@@ -1,0 +1,45 @@
+/*1.SELECTOR DE ETIQUETAS: reglas globales */
+
+body{
+    margin-top: 50px;
+    font-family: sans-serif;
+    background-color: crimson;
+
+  color: #f8faf8;
+ text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* 2. SELECTORES DE CLASE*/
+.boton-enlace{
+    display: block;
+    background-color: rgba(224, 46, 46, 0.829);
+    color: pink;
+    padding: 12px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 240px;
+
+
+}
+
+/*3.SELECTORES DE ID */
+#enlace-destacado{
+    background-color: rgb(232, 134, 203);
+    color: rgb(56, 31, 65);
+    font-weight: bolder;
+    
+}
+.perfil{
+    max-width: 350px; margin: 50px auto;
+    background-color: #741e21; border-radius: 16px;padding: 24px;
+    box-shadow: 0 8px 20px rgba(0,0,0, 0.3);
+}
+ .links{
+    margin-top: 20px;
+ }
